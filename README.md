@@ -1,4 +1,4 @@
-# CS-361-Microservice
+# CS-361-Microservice-for-partner
 
 # A. How to request data
 Data is requested by inputting in the checbox id values of the shark images that are being requested into sharks_to_view.txt.
