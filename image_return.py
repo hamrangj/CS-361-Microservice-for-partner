@@ -17,6 +17,11 @@ out_file = open("links.txt", "w")
 out_file.write(str(""))
 out_file.close()
 
+try:
+    temp_file = open("sharks_to_view.txt", "r")
+except:
+    temp_file = open("sharks_to_view.txt", "w")
+
 while always_true is True:
     with open("sharks_to_view.txt", "r") as in_file:
         in_file.seek(0, 0)
